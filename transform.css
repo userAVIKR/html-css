@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+
+
+.box{
+
+    width: 200px;
+    border: 2px solid red;
+    height: 200px;
+    font-size: 11em;
+    text-align: center;
+    background-color: aqua;
+
+    transform: translateX();
+    transform: translateY();
+    transform: translate();
+
+    transform: rotateX();
+    transform: rotateY();
+    transform: rotateZ();
+
+    transform: scaleX();
+    transform: scaleY();
+    transform: scaleZ();
+
+    transform: skewX();
+    transform: skewY();
+
+    transform: translateX(200px) rotateZ(45deg)  ; 
+
+}
+#box1{
+    background-color: rgb(65, 21, 102);
+}
+#box2{
+    background-color: rgb(21, 102, 36);
+}
+#box3{
+    background-color: rgb(197, 145, 240);
+}
+

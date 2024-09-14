@@ -1,0 +1,18 @@
+a:hover{
+    font-size: 1.3em;
+    color: red;
+}
+a:active{
+    
+    color: blue;
+}
+a:visited{
+    color: lightblue;
+}
+
+li:hover{
+    color: yellowgreen;
+}
+li:not(:hover){
+    background-color: blue;
+}

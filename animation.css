@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}  
+  
+  
+  
+  #box1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    font-size: 10em;
+    text-align: center;
+    border: 5px solid;
+    animation: slideleft;
+    animation: slideright;
+    animation-name: rotate;
+    animation-name: grow;
+    animation-name: shrink;
+    animation-name: fade;
+    animation-iteration-count: ;
+    animation-direction: ;
+    animation-direction: ;
+    animation-play-state: ;
+    animation-timing-function: ease-in-out;
+  
+
+}
+
+@keyframes slideleft{
+    from{transform: translateX()}
+}
+@keyframes slideright{
+    to{transform: translateX()}
+}
+@keyframes rotate{
+    50%{transform: rotateX()}
+}
+@keyframes grow{
+    100%{transform: scale()}
+}
+@keyframes shrink{
+    100%{transform: scale()}
+}
+@keyframes fade{
+    50%{opacity: }
+}
+@keyframes colorchange{
+    0%{background-color: red }
+    20%{background-color: orange}
+    40%{background-color: rgb(0, 255, 170) }
+    60%{background-color: rgb(152, 102, 10)}
+    80%{background-color: rgb(62, 9, 81) }
+    100%{background-color: rgb(11, 11, 11)}
+}
+
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px rgb(246, 234, 11) ;}
+}
+
+#box1:hover{
+    animation-name: glow;
+    
+    animation-duration: 1s;
+}

@@ -1,0 +1,10 @@
+h1{
+    border-style: dashed;
+    border-radius: 20px;
+    border-color: red;
+    border-width: 4px;
+}
+
+p{
+    border: 4px dotted red;
+}

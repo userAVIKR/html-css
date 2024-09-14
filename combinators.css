@@ -1,0 +1,13 @@
+#container {
+    border: 2px dotted;
+}
+#container p{
+    background-color: rgb(245, 225, 7);
+}
+
+#container > p{
+    background-color: lightblue;
+}
+#container + p{
+    background-color: rgb(255, 1, 187);
+}

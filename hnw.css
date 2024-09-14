@@ -1,0 +1,17 @@
+.container{
+    background-color: rgb(113, 113, 113);
+    height: 100vh;
+    
+}
+
+
+.box{
+    background-color: aliceblue;
+    border: 2px solid red;
+    height: auto;
+    width: 50%;
+    padding: 25px;
+    box-sizing: border-box;
+    float: left;
+    min-height: 50%;
+}
